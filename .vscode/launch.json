@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AxisSigner",
+            "request": "launch",
+            "mainClass": "org.apache.xml.security.samples.AxisSigner",
+            "projectName": "xmlsec"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AxisSigner",
+            "request": "launch",
+            "mainClass": "AxisSigner",
+            "projectName": "xmlsec"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Encrypter",
+            "request": "launch",
+            "mainClass": "org.apache.xml.security.samples.encryption.Encrypter",
+            "projectName": "xmlsec"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CreateKeyInfo",
+            "request": "launch",
+            "mainClass": "CreateKeyInfo",
+            "projectName": "xmlsec"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Encrypter",
+            "request": "launch",
+            "mainClass": "Encrypter",
+            "projectName": "xmlsec"
+        }
+    ]
+}

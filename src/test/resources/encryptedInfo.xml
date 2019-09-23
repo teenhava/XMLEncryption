@@ -1,0 +1,16 @@
+<apache:RootElement xmlns:apache="http://www.apache.org/ns/#app1">
+    <xenc:EncryptedData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" Type="http://www.w3.org/2001/04/xmlenc#Content">
+        <xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+        <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <xenc:EncryptedKey xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">
+                <xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5"/>
+                <xenc:CipherData>
+                    <xenc:CipherValue>U178T+4f5YakXM1bEhV/qO1JVTh3ZRkpMtDEpcJ5CqqRaPAHVmafP930otsUr2ehg0/YAOMWjgG3&#13; Af5sGKDRu9B+x2qDKMLFNENsLNGPnz8uYVHE8knovMIuicvpYiNjJRrYUV+DGFg7iPvhi2e4jrNz&#13; SJuzSUBENJhkYZ0HriX7UpaxQTtWDzQ5JmJOB/24/GmTHc9yAdQjkCyM6RdENQ1FAmap6P50cbry&#13; DznuGHpof7XcZ53Fl7bxGW8mbXt+Emi6XD06a7jMbaM7gZIry50skb0cZHyq8+uwyiJhlIEr7Hqu&#13; FFxJlucCetjJQ5cN4R2RUED0LVYyUj2WNTJI3w==</xenc:CipherValue>
+                </xenc:CipherData>
+            </xenc:EncryptedKey>
+        </ds:KeyInfo>
+        <xenc:CipherData>
+            <xenc:CipherValue>iO0zpev0s4X4CQXzHS0CgYjCR1Xbi7+ZjD5qHBHqdM8vPIU3C73uAi3RWLXRN0cvjyksuRg9g148&#13; ZFFzDGhe5A==</xenc:CipherValue>
+        </xenc:CipherData>
+    </xenc:EncryptedData>
+</apache:RootElement>

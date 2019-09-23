@@ -1,0 +1,50 @@
+<env:Envelope xmlns:SOAP-SEC="http://schemas.xmlsoap.org/soap/security/2000-12" xmlns:env="http://www.w3.org/2001/12/soap-envelope" actor="some-uri" mustUnderstand="1">
+<env:Header><SOAP-SEC:Signature><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference URI="#Body">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>NA4JSK4VlMVTWbWQlHwNRuBocWc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+GAdKa3ndlDiw7+gcqrG0GTzRTImR0p06V4UGE27yQ5lnZ8Yt/oGqmWnNxMlaBig7rnmuliQgvA/N&#xD;
+c9j/FIGoXCLBEt15jkYKroOG/qDP06iPUeUHMQ/W3WPLA7DEpa8adKKKg9lVGHxtPv3fE6nP6tqV&#xD;
+e3pqGNOhJz/4FfkS9JbzudseeCXairgiryrQfJhVMwgbs2IE721hJN5iy+DhHxOevHiU+6YDix/Y&#xD;
+os1NjLJeqarhZYQ0zNzIIpT5hykbDF7op6hFqNUrsNCjdQ3XfXEZ9gdeAPdUX2V54rGqJDqRzh8p&#xD;
+z9ffSL6ExWEoUl22U62/7Hnsb4GOnoBFb1iNaA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIICwzCCAaugAwIBAgIEVAYIvzANBgkqhkiG9w0BAQsFADASMRAwDgYDVQQDEwdteUFsaWFzMB4X&#xD;
+DTE5MDkyMzA4MDQzOFoXDTE5MTIyMjA4MDQzOFowEjEQMA4GA1UEAxMHbXlBbGlhczCCASIwDQYJ&#xD;
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAJmXUIHGuKzQNm0M0ZzM4XjUIwe9gej+scnDcZH9CrRm&#xD;
+rlQ/nf4FLaj7V5Y/IBmELZQeGqKy1hWf+AzZeTaNjUXSAFVQ4r7rbD8IPSsn0bfBiiGVXHm/sw8T&#xD;
+uXVkwC3vrb5EdAyUWRRgCaSY0lFa5+uxVP2JD+XZNBKTIOK51OIn59q3K1Hk//Ko/8f89noqAZyK&#xD;
+Cmefni3pdOyrg4I13C3mHqg8oam5//tAbCdXeUw2odk7Th+p02f6ADSQCljiRW9qEeN2Ks/ry7rv&#xD;
+12l4L+dWeD0fl0e1kvWu3F2ocvh9A4O0NlLVd91MKUwC6MMSKxquGV2yCP9lO0Ni91C60JMCAwEA&#xD;
+AaMhMB8wHQYDVR0OBBYEFKZppGSHbi5yzjOvA0h6vPHxBxzHMA0GCSqGSIb3DQEBCwUAA4IBAQA2&#xD;
+oZ2PoRzz773fT5H0Fvp3o8aiUNInSWjZnFDg7askFaeUuikv1VoUu6zaRQkjRpAYRiZdLv8gZdjP&#xD;
+hfJJa1ExFeqsYO2/csulNZW5UZl5nvLvD/lcAbPDVs4XdbwPjDvMvOf0nIHRZD6mMNRH9jwehQ2R&#xD;
+Ut9rCEpPdFf0oBSWWg0L4eJCdmVfdL/oGZB4z2Re5hUI/ukKXRGfgRsUt33e33NTwXEgBlbRXnF3&#xD;
+MSgIgsWI5mL7NES86E2FKfHSY+0QkY7nWM6dmWL+lMyBsf8bSb6BcFhVKfmknbNSmcgtVUbeCAPW&#xD;
+8a9LqmHUxJJeUmooB+n5u6yPhwjiAhy3Z1mU
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>mZdQgca4rNA2bQzRnMzheNQjB72B6P6xycNxkf0KtGauVD+d/gUtqPtXlj8gGYQtlB4aorLWFZ/4&#xD;
+DNl5No2NRdIAVVDivutsPwg9KyfRt8GKIZVceb+zDxO5dWTALe+tvkR0DJRZFGAJpJjSUVrn67FU&#xD;
+/YkP5dk0EpMg4rnU4ifn2rcrUeT/8qj/x/z2eioBnIoKZ5+eLel07KuDgjXcLeYeqDyhqbn/+0Bs&#xD;
+J1d5TDah2TtOH6nTZ/oANJAKWOJFb2oR43Yqz+vLuu/XaXgv51Z4PR+XR7WS9a7cXahy+H0Dg7Q2&#xD;
+UtV33UwpTALowxIrGq4ZXbII/2U7Q2L3ULrQkw==</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+</ds:Signature></SOAP-SEC:Signature></env:Header>
+<env:Body SOAP-SEC:id="Body">This is signed together with it's Body ancestor</env:Body>
+
+</env:Envelope>
